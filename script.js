@@ -9,5 +9,5 @@ body.append(div);
 window.onresize = function(){
     let x = innerWidth;
     let y = innerHeight;
-    h1.innerText = `Width ${x} Height ${y}`;
+    h1.innerText = `Width:${x} Height:${y}`;
 };
